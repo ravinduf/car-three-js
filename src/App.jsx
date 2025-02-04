@@ -1,11 +1,12 @@
+import CarCanvas from "./Car"
 
-import './App.css'
 
 function App() {
 
   return (
-    <>
-    </>
+    <div className="h-[90vh] bg-[#cdcfd3]">
+      <CarCanvas />
+    </div>
   )
 }
 
